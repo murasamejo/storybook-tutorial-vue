@@ -21,3 +21,7 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Yarn v3
+.yarn/*
+!.yarn/releases/
