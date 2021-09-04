@@ -1,0 +1,32 @@
+on: [push]
+name: Storybook チュートリアル (Vue.js 3)
+jobs:
+  storybook_tutorial_vuejs_3:
+    name: GitHub Actions CI
+    runs-on: ubuntu-latest
+    container:
+      image: node:16.8.0
+    strategy:
+      matrix:
+        node: [ '14', '16' ]
+    steps:
+      - uses: actions/checkout@v2
+      - name: 必要なライブラリのインストールを行う
+        run: |
+          apt install -y tar
+      # https://github.com/actions/setup-node
+      - uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node }}
+          cache: 'yarn'
+      - name: 各種バージョンの確認
+        run: |
+          node -v
+          npm -v
+          yarn -v
+      - name: $ yarn install
+        run: |
+          yarn install
+      - name: $ yarn test:unit
+        run: |
+          yarn test:unit
