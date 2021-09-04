@@ -10472,6 +10472,7 @@ fsevents@^1.2.7:
     core-js: ^3.6.5
     eslint: ^6.7.2
     eslint-plugin-vue: ^7.0.0
+    node-gyp: ^8.2.0
     typescript: ~3.9.3
     vue: ^3.0.0
     vue-jest: ^5.0.0-0
@@ -13281,7 +13282,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:latest":
+"node-gyp@npm:^8.2.0, node-gyp@npm:latest":
   version: 8.2.0
   resolution: "node-gyp@npm:8.2.0"
   dependencies:
