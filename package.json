@@ -43,7 +43,8 @@
     "node-gyp": "^8.2.0",
     "typescript": "~3.9.3",
     "vue-jest": "^5.0.0-0",
-    "vue-loader": "^16.2.0"
+    "vue-loader": "^16.2.0",
+    "vuex": "next"
   },
   "eslintConfig": {
     "root": true,

@@ -4152,6 +4152,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vue/devtools-api@npm:^6.0.0-beta.11":
+  version: 6.0.0-beta.15
+  resolution: "@vue/devtools-api@npm:6.0.0-beta.15"
+  checksum: 7769e72bd4d04d2d3e80fcdca277aa41011af6d39c82031de5bba1457ff13e01b06d04d466b660dee796846560b8a2553c88bdb76b8fe42a1e08435e4cca6a23
+  languageName: node
+  linkType: hard
+
 "@vue/preload-webpack-plugin@npm:^1.1.0":
   version: 1.1.2
   resolution: "@vue/preload-webpack-plugin@npm:1.1.2"
@@ -10477,6 +10484,7 @@ fsevents@^1.2.7:
     vue: ^3.0.0
     vue-jest: ^5.0.0-0
     vue-loader: ^16.2.0
+    vuex: next
   languageName: unknown
   linkType: soft
 
@@ -18882,6 +18890,17 @@ typescript@~3.9.3:
     "@vue/runtime-dom": 3.0.11
     "@vue/shared": 3.0.11
   checksum: 4e7e53e35e87c995b49c2d869dbe68feb9cf6817b68f4e0a23b2eef5b9da76848889842387c75e64dce3c2e5c886424e696abbb58ffdbbff1a03eb5dee264855
+  languageName: node
+  linkType: hard
+
+"vuex@npm:next":
+  version: 4.0.2
+  resolution: "vuex@npm:4.0.2"
+  dependencies:
+    "@vue/devtools-api": ^6.0.0-beta.11
+  peerDependencies:
+    vue: ^3.0.2
+  checksum: d7c03f0afcbad045ef58921a4baa9ec23bc12c71dbaf1317f1df94e7d8740ce839b9fac48ec775955ce7a8893dceb7217bc05e45421fc6bacc559ed3541e6052
   languageName: node
   linkType: hard
 
