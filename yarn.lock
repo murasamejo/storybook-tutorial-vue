@@ -72,7 +72,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.13.16, @babel/core@npm:^7.1.0, @babel/core@npm:^7.1.6, @babel/core@npm:^7.11.0, @babel/core@npm:^7.12.10, @babel/core@npm:^7.13.16, @babel/core@npm:^7.7.5":
+"@babel/core@npm:7.13.16, @babel/core@npm:^7.1.0, @babel/core@npm:^7.1.6, @babel/core@npm:^7.11.0, @babel/core@npm:^7.12.10, @babel/core@npm:^7.7.5":
   version: 7.13.16
   resolution: "@babel/core@npm:7.13.16"
   dependencies:
@@ -5262,7 +5262,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-eslint@npm:^10.1.0":
+"babel-eslint@npm:10.1.0":
   version: 10.1.0
   resolution: "babel-eslint@npm:10.1.0"
   dependencies:
@@ -5295,7 +5295,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-loader@npm:^8.1.0, babel-loader@npm:^8.2.2":
+"babel-loader@npm:8.2.2, babel-loader@npm:^8.1.0, babel-loader@npm:^8.2.2":
   version: 8.2.2
   resolution: "babel-loader@npm:8.2.2"
   dependencies:
@@ -10661,7 +10661,7 @@ fsevents@^1.2.7:
   version: 0.0.0-use.local
   resolution: "intro-storybook-vue-template@workspace:."
   dependencies:
-    "@babel/core": ^7.13.16
+    "@babel/core": 7.13.16
     "@storybook/addon-actions": 6.3.8
     "@storybook/addon-essentials": 6.3.8
     "@storybook/addon-links": 6.3.8
@@ -10672,8 +10672,8 @@ fsevents@^1.2.7:
     "@vue/cli-service": 4.5.13
     "@vue/compiler-sfc": 3.2.11
     "@vue/test-utils": 2.0.0-rc.14
-    babel-eslint: ^10.1.0
-    babel-loader: ^8.2.2
+    babel-eslint: 10.1.0
+    babel-loader: 8.2.2
     core-js: 3.17.3
     eslint: 7.32.0
     eslint-plugin-vue: ^7.0.0
