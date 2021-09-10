@@ -8400,7 +8400,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vue@npm:^7.0.0":
+"eslint-plugin-vue@npm:7.9.0":
   version: 7.9.0
   resolution: "eslint-plugin-vue@npm:7.9.0"
   dependencies:
@@ -10676,8 +10676,8 @@ fsevents@^1.2.7:
     babel-loader: 8.2.2
     core-js: 3.17.3
     eslint: 7.32.0
-    eslint-plugin-vue: ^7.0.0
-    node-gyp: ^8.2.0
+    eslint-plugin-vue: 7.9.0
+    node-gyp: 8.2.0
     typescript: 4.4.2
     vue: 3.2.11
     vue-jest: 5.0.0-alpha.10
@@ -13516,7 +13516,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:^8.2.0, node-gyp@npm:latest":
+"node-gyp@npm:8.2.0, node-gyp@npm:latest":
   version: 8.2.0
   resolution: "node-gyp@npm:8.2.0"
   dependencies:
