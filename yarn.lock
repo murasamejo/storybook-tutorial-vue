@@ -2187,7 +2187,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-actions@npm:6.3.0, @storybook/addon-actions@npm:^6.3.0":
+"@storybook/addon-actions@npm:6.3.0":
   version: 6.3.0
   resolution: "@storybook/addon-actions@npm:6.3.0"
   dependencies:
@@ -2362,7 +2362,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-essentials@npm:^6.3.0":
+"@storybook/addon-essentials@npm:6.3.0":
   version: 6.3.0
   resolution: "@storybook/addon-essentials@npm:6.3.0"
   dependencies:
@@ -2406,7 +2406,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-links@npm:^6.3.0":
+"@storybook/addon-links@npm:6.3.0":
   version: 6.3.0
   resolution: "@storybook/addon-links@npm:6.3.0"
   dependencies:
@@ -3135,7 +3135,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/vue3@npm:^6.3.0":
+"@storybook/vue3@npm:6.3.0":
   version: 6.3.0
   resolution: "@storybook/vue3@npm:6.3.0"
   dependencies:
@@ -10471,10 +10471,10 @@ fsevents@^1.2.7:
   resolution: "intro-storybook-vue-template@workspace:."
   dependencies:
     "@babel/core": ^7.13.16
-    "@storybook/addon-actions": ^6.3.0
-    "@storybook/addon-essentials": ^6.3.0
-    "@storybook/addon-links": ^6.3.0
-    "@storybook/vue3": ^6.3.0
+    "@storybook/addon-actions": 6.3.0
+    "@storybook/addon-essentials": 6.3.0
+    "@storybook/addon-links": 6.3.0
+    "@storybook/vue3": 6.3.0
     "@vue/cli-plugin-babel": ~4.5.0
     "@vue/cli-plugin-eslint": ~4.5.0
     "@vue/cli-plugin-unit-jest": ~4.5.0
