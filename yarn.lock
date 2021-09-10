@@ -3939,7 +3939,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/cli-plugin-babel@npm:~4.5.0":
+"@vue/cli-plugin-babel@npm:4.5.12":
   version: 4.5.12
   resolution: "@vue/cli-plugin-babel@npm:4.5.12"
   dependencies:
@@ -3956,7 +3956,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/cli-plugin-eslint@npm:~4.5.0":
+"@vue/cli-plugin-eslint@npm:4.5.12":
   version: 4.5.12
   resolution: "@vue/cli-plugin-eslint@npm:4.5.12"
   dependencies:
@@ -3984,7 +3984,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/cli-plugin-unit-jest@npm:~4.5.0":
+"@vue/cli-plugin-unit-jest@npm:4.5.12":
   version: 4.5.12
   resolution: "@vue/cli-plugin-unit-jest@npm:4.5.12"
   dependencies:
@@ -4018,7 +4018,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/cli-service@npm:~4.5.0":
+"@vue/cli-service@npm:4.5.12":
   version: 4.5.12
   resolution: "@vue/cli-service@npm:4.5.12"
   dependencies:
@@ -4148,7 +4148,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-sfc@npm:^3.0.0, @vue/compiler-sfc@npm:^3.0.7":
+"@vue/compiler-sfc@npm:3.0.11, @vue/compiler-sfc@npm:^3.0.7":
   version: 3.0.11
   resolution: "@vue/compiler-sfc@npm:3.0.11"
   dependencies:
@@ -4258,7 +4258,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/test-utils@npm:^2.0.0-0":
+"@vue/test-utils@npm:2.0.0-rc.6":
   version: 2.0.0-rc.6
   resolution: "@vue/test-utils@npm:2.0.0-rc.6"
   peerDependencies:
@@ -10587,12 +10587,12 @@ fsevents@^1.2.7:
     "@storybook/addon-essentials": 6.3.8
     "@storybook/addon-links": 6.3.8
     "@storybook/vue3": 6.3.8
-    "@vue/cli-plugin-babel": ~4.5.0
-    "@vue/cli-plugin-eslint": ~4.5.0
-    "@vue/cli-plugin-unit-jest": ~4.5.0
-    "@vue/cli-service": ~4.5.0
-    "@vue/compiler-sfc": ^3.0.0
-    "@vue/test-utils": ^2.0.0-0
+    "@vue/cli-plugin-babel": 4.5.12
+    "@vue/cli-plugin-eslint": 4.5.12
+    "@vue/cli-plugin-unit-jest": 4.5.12
+    "@vue/cli-service": 4.5.12
+    "@vue/compiler-sfc": 3.0.11
+    "@vue/test-utils": 2.0.0-rc.6
     babel-eslint: ^10.1.0
     babel-loader: ^8.2.2
     core-js: 3.17.3
@@ -10600,9 +10600,9 @@ fsevents@^1.2.7:
     eslint-plugin-vue: ^7.0.0
     node-gyp: ^8.2.0
     typescript: 4.4.2
-    vue: ^3.0.0
-    vue-jest: ^5.0.0-0
-    vue-loader: ^16.2.0
+    vue: 3.0.11
+    vue-jest: 5.0.0-alpha.8
+    vue-loader: 16.2.0
     vuex: next
   languageName: unknown
   linkType: soft
@@ -18988,30 +18988,7 @@ typescript@4.4.2:
   languageName: node
   linkType: hard
 
-"vue-jest@npm:^3.0.5":
-  version: 3.0.7
-  resolution: "vue-jest@npm:3.0.7"
-  dependencies:
-    babel-plugin-transform-es2015-modules-commonjs: ^6.26.0
-    chalk: ^2.1.0
-    deasync: ^0.1.15
-    extract-from-css: ^0.4.4
-    find-babel-config: ^1.1.0
-    js-beautify: ^1.6.14
-    node-cache: ^4.1.1
-    object-assign: ^4.1.1
-    source-map: ^0.5.6
-    tsconfig: ^7.0.0
-    vue-template-es2015-compiler: ^1.6.0
-  peerDependencies:
-    babel-core: ^6.25.0 || ^7.0.0-0
-    vue: ^2.x
-    vue-template-compiler: ^2.x
-  checksum: f08a228c345b28d314cf6cf40420eedff988f6274a6a3ad9525776644b4116f7bbc9aa34c04d5ee9c32a4440d919c7b6c5628ed20f543ba9c585bf221e7f4050
-  languageName: node
-  linkType: hard
-
-"vue-jest@npm:^5.0.0-0":
+"vue-jest@npm:5.0.0-alpha.8":
   version: 5.0.0-alpha.8
   resolution: "vue-jest@npm:5.0.0-alpha.8"
   dependencies:
@@ -19036,7 +19013,30 @@ typescript@4.4.2:
   languageName: node
   linkType: hard
 
-"vue-loader-v16@npm:vue-loader@^16.1.0, vue-loader@npm:^16.0.0, vue-loader@npm:^16.2.0":
+"vue-jest@npm:^3.0.5":
+  version: 3.0.7
+  resolution: "vue-jest@npm:3.0.7"
+  dependencies:
+    babel-plugin-transform-es2015-modules-commonjs: ^6.26.0
+    chalk: ^2.1.0
+    deasync: ^0.1.15
+    extract-from-css: ^0.4.4
+    find-babel-config: ^1.1.0
+    js-beautify: ^1.6.14
+    node-cache: ^4.1.1
+    object-assign: ^4.1.1
+    source-map: ^0.5.6
+    tsconfig: ^7.0.0
+    vue-template-es2015-compiler: ^1.6.0
+  peerDependencies:
+    babel-core: ^6.25.0 || ^7.0.0-0
+    vue: ^2.x
+    vue-template-compiler: ^2.x
+  checksum: f08a228c345b28d314cf6cf40420eedff988f6274a6a3ad9525776644b4116f7bbc9aa34c04d5ee9c32a4440d919c7b6c5628ed20f543ba9c585bf221e7f4050
+  languageName: node
+  linkType: hard
+
+"vue-loader-v16@npm:vue-loader@^16.1.0, vue-loader@npm:16.2.0, vue-loader@npm:^16.0.0":
   version: 16.2.0
   resolution: "vue-loader@npm:16.2.0"
   dependencies:
@@ -19085,7 +19085,7 @@ typescript@4.4.2:
   languageName: node
   linkType: hard
 
-"vue@npm:^3.0.0":
+"vue@npm:3.0.11":
   version: 3.0.11
   resolution: "vue@npm:3.0.11"
   dependencies:
