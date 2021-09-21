@@ -10681,7 +10681,7 @@ fsevents@^1.2.7:
     typescript: 4.4.3
     vue: 3.2.12
     vue-jest: 5.0.0-alpha.10
-    vue-loader: 16.5.0
+    vue-loader: 16.7.0
     vuex: next
   languageName: unknown
   linkType: soft
@@ -19096,20 +19096,16 @@ typescript@4.4.3:
   languageName: node
   linkType: hard
 
-"vue-loader@npm:16.5.0":
-  version: 16.5.0
-  resolution: "vue-loader@npm:16.5.0"
+"vue-loader@npm:16.7.0":
+  version: 16.7.0
+  resolution: "vue-loader@npm:16.7.0"
   dependencies:
     chalk: ^4.1.0
     hash-sum: ^2.0.0
     loader-utils: ^2.0.0
   peerDependencies:
-    "@vue/compiler-sfc": ^3.0.8
     webpack: ^4.1.0 || ^5.0.0-0
-  peerDependenciesMeta:
-    "@vue/compiler-sfc":
-      optional: true
-  checksum: 24f0e704729a933f1bc7b8c6a1a7662f27602f66f1690856f57e840127b8f7a1064c290ee5f040bb7e72de7dfcef0befb9f0773307b19c475a9213380011e592
+  checksum: 84ae4829cc8f2586df83af668225d8a93407ede17759e23b243f83c2f0eac88170656d174ea45b68d8f4f9c4450cf90f371f9aa280777c5912cfd43d05511fff
   languageName: node
   linkType: hard
 
