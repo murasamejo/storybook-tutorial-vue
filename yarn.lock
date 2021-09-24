@@ -4349,12 +4349,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/test-utils@npm:2.0.0-rc.14":
-  version: 2.0.0-rc.14
-  resolution: "@vue/test-utils@npm:2.0.0-rc.14"
+"@vue/test-utils@npm:2.0.0-rc.15":
+  version: 2.0.0-rc.15
+  resolution: "@vue/test-utils@npm:2.0.0-rc.15"
   peerDependencies:
     vue: ^3.0.1
-  checksum: a78deaf7372955af483b2899dd75797662a9b3ce13761a6c0e68618cb34f6d332f71b3b6fc639e73ff031e037177917afaf5d0e345f75c0bbd8f34471765e8a4
+  checksum: a8fba85a8c8e0ea54ece88c8edf4245bfde8c505a5df167fbab707eab0fc77d68c4067bc24392b5108f06281dc9ed6cd05f7984c6e0771d2c32a74938be2486a
   languageName: node
   linkType: hard
 
@@ -10657,7 +10657,7 @@ fsevents@^1.2.7:
     "@vue/cli-plugin-unit-jest": 4.5.13
     "@vue/cli-service": 4.5.13
     "@vue/compiler-sfc": 3.2.16
-    "@vue/test-utils": 2.0.0-rc.14
+    "@vue/test-utils": 2.0.0-rc.15
     babel-eslint: 10.1.0
     babel-loader: 8.2.2
     core-js: 3.18.0
