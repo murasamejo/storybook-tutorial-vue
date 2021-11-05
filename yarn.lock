@@ -10861,7 +10861,7 @@ fsevents@^1.2.7:
     core-js: 3.19.1
     eslint: 8.1.0
     eslint-plugin-vue: 8.0.3
-    node-gyp: 8.3.0
+    node-gyp: 8.4.0
     typescript: 4.4.4
     vue: 3.2.21
     vue-jest: 5.0.0-alpha.10
@@ -13723,9 +13723,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:8.3.0":
-  version: 8.3.0
-  resolution: "node-gyp@npm:8.3.0"
+"node-gyp@npm:8.4.0":
+  version: 8.4.0
+  resolution: "node-gyp@npm:8.4.0"
   dependencies:
     env-paths: ^2.2.0
     glob: ^7.1.4
@@ -13739,7 +13739,7 @@ fsevents@^1.2.7:
     which: ^2.0.2
   bin:
     node-gyp: bin/node-gyp.js
-  checksum: a0304728eb56c99ce61b3210b934d247b72bba81658d1d92fc0f125bbdd252bbcdedcd949a09ead9e52d6fa742301945ead06d0e2d67f614f4426b5fc6d30996
+  checksum: a5a0045f6a1708a7760cfee2b5e2cd9072dd6a0d5d3376bb96e0bae1f1e43d14a0bd54970e1fbd2632cceb9c23d36a3efabe88c26256693e969566cf977501c2
   languageName: node
   linkType: hard
 
