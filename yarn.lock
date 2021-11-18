@@ -8584,9 +8584,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vue@npm:8.0.3":
-  version: 8.0.3
-  resolution: "eslint-plugin-vue@npm:8.0.3"
+"eslint-plugin-vue@npm:8.1.0":
+  version: 8.1.0
+  resolution: "eslint-plugin-vue@npm:8.1.0"
   dependencies:
     eslint-utils: ^3.0.0
     natural-compare: ^1.4.0
@@ -8594,7 +8594,7 @@ __metadata:
     vue-eslint-parser: ^8.0.1
   peerDependencies:
     eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
-  checksum: 88bd597b72b8957d2f332718f89abe38e3a8b11564a37935adae64576444ea7770ee04e36e8bbad584aa963f8cb71304fa625719f63a21de3e9da0d5571e0627
+  checksum: 494329a2cd6d2555092b1223066a2dc08657c2d8bc9b0aacaaacb3727be69c6ee53a318e98b23ff9baee2033248bb99adbed9ccd80bc880a5a7683db7b4be5f6
   languageName: node
   linkType: hard
 
@@ -10867,7 +10867,7 @@ fsevents@^1.2.7:
     babel-loader: 8.2.2
     core-js: 3.19.1
     eslint: 8.2.0
-    eslint-plugin-vue: 8.0.3
+    eslint-plugin-vue: 8.1.0
     node-gyp: 8.4.0
     typescript: 4.5.2
     vue: 3.2.22
