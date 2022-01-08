@@ -18,7 +18,10 @@
         "^.*"
       ],
       "automerge": true
+    },
+    {
+      "matchSourceUrlPrefixes": ["https://github.com/facebook/jest"],
+      "enabled": false
     }
   ]
 }
-
