@@ -15,7 +15,7 @@ jobs:
         run: |
           apt install -y tar
       # https://github.com/actions/setup-node
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
           cache: 'yarn'
