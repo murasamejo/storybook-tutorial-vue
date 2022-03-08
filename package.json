@@ -21,7 +21,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "core-js": "3.20.3",
+    "core-js": "3.21.1",
     "vue": "3.2.31"
   },
   "devDependencies": {
